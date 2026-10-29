@@ -1,0 +1,126 @@
+countryCode,country,gbif_records,sample_records,sample_fraction_pct
+GH,Ghana,57980,5386,9.29
+US,United States of America,16357,1541,9.42
+MX,Mexico,13721,1297,9.45
+TW,Chinese Taipei,9504,907,9.54
+BR,Brazil,5872,572,9.74
+CD,"Congo, Democratic Republic of the",2553,265,10.38
+CV,Cabo Verde,1920,207,10.78
+CO,Colombia,828,106,12.8
+TH,Thailand,809,104,12.86
+KE,Kenya,452,71,15.71
+ID,Indonesia,364,63,17.31
+IN,India,349,62,17.77
+AR,Argentina,281,55,19.57
+CU,Cuba,209,49,23.44
+PR,Puerto Rico,191,47,24.61
+VN,Viet Nam,171,45,26.32
+NG,Nigeria,165,45,27.27
+SA,Saudi Arabia,138,42,30.43
+PK,Pakistan,118,40,33.9
+ZA,South Africa,118,40,33.9
+AU,Australia,109,40,36.7
+PE,Peru,97,38,39.18
+VE,Venezuela (Bolivarian Republic of),96,38,39.58
+TT,Trinidad and Tobago,85,37,43.53
+MY,Malaysia,81,37,45.68
+PT,Portugal,79,37,46.84
+CL,Chile,78,37,47.44
+SN,Senegal,77,37,48.05
+GF,French Guiana,74,36,48.65
+CI,Côte d’Ivoire,72,36,50.0
+EC,Ecuador,65,36,55.38
+PA,Panama,56,35,62.5
+CM,Cameroon,53,34,64.15
+CR,Costa Rica,48,34,70.83
+LK,Sri Lanka,48,34,70.83
+MQ,Martinique,48,34,70.83
+BJ,Benin,38,33,86.84
+MG,Madagascar,37,33,89.19
+SG,Singapore,31,31,100.0
+BF,Burkina Faso,30,30,100.0
+RU,Russian Federation,30,30,100.0
+PF,French Polynesia,29,29,100.0
+BO,Bolivia (Plurinational State of),28,28,100.0
+GA,Gabon,27,27,100.0
+BD,Bangladesh,26,26,100.0
+KH,Cambodia,26,26,100.0
+HN,Honduras,25,25,100.0
+PH,Philippines,24,24,100.0
+YT,Mayotte,22,22,100.0
+PY,Paraguay,21,21,100.0
+CW,Curaçao,20,0,0.0
+UG,Uganda,20,0,0.0
+UY,Uruguay,20,0,0.0
+GE,Georgia,19,0,0.0
+BQ,"Bonaire, Sint Eustatius and Saba",18,0,0.0
+GN,Guinea,18,0,0.0
+DO,Dominican Republic,17,0,0.0
+NE,Niger,17,0,0.0
+NP,Nepal,17,0,0.0
+GD,Grenada,14,0,0.0
+NI,Nicaragua,12,0,0.0
+TZ,"Tanzania, United Republic of",12,0,0.0
+ZM,Zambia,12,0,0.0
+GP,Guadeloupe,11,0,0.0
+NC,New Caledonia,10,0,0.0
+AW,Aruba,8,0,0.0
+DE,Germany,8,0,0.0
+SV,El Salvador,8,0,0.0
+CA,Canada,6,0,0.0
+ES,Spain,6,0,0.0
+GT,Guatemala,6,0,0.0
+KM,Comoros,6,0,0.0
+KY,Cayman Islands,6,0,0.0
+MM,Myanmar,6,0,0.0
+MZ,Mozambique,6,0,0.0
+SD,Sudan,6,0,0.0
+SX,Sint Maarten (Dutch part),6,0,0.0
+ZW,Zimbabwe,6,0,0.0
+AO,Angola,5,0,0.0
+EG,Egypt,5,0,0.0
+GM,Gambia,5,0,0.0
+JM,Jamaica,5,0,0.0
+LU,Luxembourg,5,0,0.0
+RE,Réunion,5,0,0.0
+AE,United Arab Emirates,4,0,0.0
+AS,American Samoa,4,0,0.0
+CF,Central African Republic,4,0,0.0
+TR,Türkiye,4,0,0.0
+BW,Botswana,3,0,0.0
+CY,Cyprus,3,0,0.0
+MV,Maldives,3,0,0.0
+YE,Yemen,3,0,0.0
+AG,Antigua and Barbuda,2,0,0.0
+BB,Barbados,2,0,0.0
+CG,Congo,2,0,0.0
+CN,China,2,0,0.0
+GB,United Kingdom of Great Britain and Northern Ireland,2,0,0.0
+JP,Japan,2,0,0.0
+KN,Saint Kitts and Nevis,2,0,0.0
+LA,Lao People’s Democratic Republic,2,0,0.0
+SR,Suriname,2,0,0.0
+TO,Tonga,2,0,0.0
+AF,Afghanistan,1,0,0.0
+AI,Anguilla,1,0,0.0
+BL,Saint Barthélemy,1,0,0.0
+BS,Bahamas,1,0,0.0
+BZ,Belize,1,0,0.0
+CK,Cook Islands,1,0,0.0
+DM,Dominica,1,0,0.0
+ET,Ethiopia,1,0,0.0
+FJ,Fiji,1,0,0.0
+HK,Hong Kong,1,0,0.0
+HT,Haiti,1,0,0.0
+LB,Lebanon,1,0,0.0
+LC,Saint Lucia,1,0,0.0
+ML,Mali,1,0,0.0
+MW,Malawi,1,0,0.0
+NA,Namibia,1,0,0.0
+PN,Pitcairn,1,0,0.0
+RW,Rwanda,1,0,0.0
+SB,Solomon Islands,1,0,0.0
+SE,Sweden,1,0,0.0
+ST,Sao Tome and Principe,1,0,0.0
+TC,Turks and Caicos Islands,1,0,0.0
+VC,Saint Vincent and the Grenadines,1,0,0.0

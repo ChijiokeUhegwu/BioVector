@@ -1,0 +1,7 @@
+zone_id,zone_label,latitude,longitude,sample_occurrences,share_pct,dominant_country,grid_cell
+Z01,Z01 · Ghana,5.72889,-0.22362,4863,40.83,Ghana,19:35
+Z02,Z02 · Chinese Taipei,22.63765,120.3374,907,7.62,Chinese Taipei,22:60
+Z03,Z03 · Mexico,21.08655,-98.46416,836,7.02,Mexico,22:16
+Z04,Z04 · United States of America,27.58966,-81.21459,490,4.11,United States of America,23:19
+Z05,Z05 · United States of America,33.66059,-117.63336,391,3.28,United States of America,24:12
+Z06,Z06 · Ghana,4.89698,-1.75758,299,2.51,Ghana,18:35

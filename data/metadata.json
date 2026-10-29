@@ -1,0 +1,103 @@
+{
+  "application": "BioVector: Quantitative Biodiversity Informatics & Zoonotic Niche Modeler",
+  "pipeline_version": "1.0.0",
+  "generated_at_utc": "2026-10-27T20:24:46+00:00",
+  "species": {
+    "scientific_name": "Aedes aegypti (Linnaeus, 1762)",
+    "canonical_name": "Aedes aegypti",
+    "taxon_key": 1651891,
+    "rank": "SPECIES",
+    "status": "ACCEPTED",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Diptera",
+    "family": "Culicidae",
+    "genus": "Aedes",
+    "identifier_note": "BioVector targets Aedes aegypti using the accepted GBIF Taxonomic Key 1651891. This ensures precise taxonomic filtering and guards against species misidentification, preventing data from being mixed with sibling vector taxa (such as Aedes albopictus)."
+  },
+  "occurrence_dataset": {
+    "source_name": "GBIF Occurrence API",
+    "source_url": "https://api.gbif.org/v1/occurrence/search",
+    "homepage": "https://www.gbif.org",
+    "retrieved_at_utc": "2026-10-27T20:24:40+00:00",
+    "query_parameters": {
+      "taxonKey": 1651891,
+      "hasCoordinate": "true",
+      "hasGeospatialIssue": "false",
+      "occurrenceStatus": "PRESENT",
+      "year": "2000,2026"
+    },
+    "query_total": 114082,
+    "raw_records_pulled": 11909,
+    "valid_records": 11909,
+    "records_discarded": 0,
+    "unique_countries": 50,
+    "sampling": {
+      "strategy": "Country-stratified proportional quota with a minimum allocation for range-edge countries; geographic coordinates and dates are unmodified from GBIF.",
+      "sampled_records_target": 11909,
+      "countries_requested": 50,
+      "countries_available": 125,
+      "api_page_requests": 80
+    },
+    "date_precision_counts": {
+      "year": 6979,
+      "day": 4906,
+      "month": 24
+    },
+    "monthly_profile": {
+      "records_used": 4930,
+      "share_of_sample_pct": 41.4,
+      "note": "Seasonality uses only sampled records with day- or month-level event dates. Year-only records remain in the map but are excluded from month-specific analyses."
+    },
+    "source_side_facets": {
+      "note": "Country and basis-of-record totals are complete GBIF query facets and are not extrapolated from the coordinate sample. GBIF's interpreted month facet is not used because it omits records whose source datasets provide only year-level dates.",
+      "country_facet_records": 114082,
+      "basis_facet_records": 114082
+    },
+    "date_span": {
+      "start": "2000-01-01",
+      "end": "2026-10-05"
+    }
+  },
+  "analysis": {
+    "zone_count": 6,
+    "grid_degrees": 5.0,
+    "primary_zone": {
+      "zone_id": "Z01",
+      "zone_label": "Z01 · Ghana",
+      "dominant_country": "Ghana",
+      "latitude": 5.72889,
+      "longitude": -0.22362,
+      "sample_occurrences": 4863,
+      "mean_temperature_c": 26.54,
+      "total_precipitation_mm": 1211.7
+    }
+  },
+  "climate_dataset": {
+    "source_name": "Open-Meteo Historical Weather API",
+    "source_url": "https://archive-api.open-meteo.com/v1/archive",
+    "homepage": "https://open-meteo.com",
+    "retrieved_at_utc": "2026-10-27T20:24:46+00:00",
+    "period": {
+      "start": "2025-10-01",
+      "end": "2026-09-30",
+      "complete_calendar_months": 12
+    },
+    "daily_parameters": [
+      "temperature_2m_mean",
+      "precipitation_sum"
+    ],
+    "zones_requested": 6,
+    "zones_succeeded": 6,
+    "failures": [],
+    "aggregation": "Monthly temperature is the arithmetic mean of daily ERA5/ERA5-Land 2 m air-temperature means; monthly precipitation is the sum of daily precipitation totals at the core-zone centroid."
+  },
+  "endpoints": {
+    "gbif": "https://api.gbif.org/v1/occurrence/search",
+    "gbif_homepage": "https://www.gbif.org",
+    "open_meteo_archive": "https://archive-api.open-meteo.com/v1/archive",
+    "open_meteo_homepage": "https://open-meteo.com"
+  },
+  "disclaimer": "Occurrence data are presence-only and reflect heterogeneous sampling effort. Seasonal climate associations are descriptive and should not be interpreted as causal effect estimates."
+}
