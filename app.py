@@ -768,7 +768,9 @@ def spearman_correlation(left: pd.Series, right: pd.Series) -> float | None:
     aligned = pd.concat([left, right], axis=1).dropna()
     if len(aligned) < 3 or aligned.iloc[:, 0].nunique() < 2 or aligned.iloc[:, 1].nunique() < 2:
         return None
-    coefficient = aligned.iloc[:, 0].corr(aligned.iloc[:, 1], method="spearman")
+    # Spearman rank correlation is the Pearson correlation of the fractional ranks.
+    # Computing it via rank().corr(method='pearson') avoids requiring an external scipy installation.
+    coefficient = aligned.iloc[:, 0].rank().corr(aligned.iloc[:, 1].rank(), method="pearson")
     return None if pd.isna(coefficient) else float(coefficient)
 
 

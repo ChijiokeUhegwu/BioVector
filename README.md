@@ -190,6 +190,7 @@ All dependencies are pinned in `requirements.txt` (tested and verified with Pyth
 | **numpy** | `2.5.4` | `>=1.26, <3.0` |
 | **plotly** | `7.1.0` | `>=5.24, <8.0` |
 | **requests** | `2.34.2` | `>=2.31, <3.0` |
+| **scipy** | `1.18.1` | `>=1.13, <2.0` |
 
 ```text
 streamlit==1.66.0
@@ -197,6 +198,7 @@ pandas==3.0.6
 numpy==2.5.4
 plotly==7.1.0
 requests==2.34.2
+scipy>=1.13.0
 ```
 
 ---
