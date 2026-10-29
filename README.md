@@ -177,14 +177,22 @@ BioVector/
   - Daily parameters: `temperature_2m_mean`, `precipitation_sum`
   - Reanalysis models: ERA5 & ERA5-Land seamless global reanalysis
 
-All dependencies are pinned in `requirements.txt`:
+All dependencies are pinned in `requirements.txt` (tested and verified with Python 3.12):
+
+| Package | Exact Tested Version | Compatible Version Range |
+| :--- | :--- | :--- |
+| **streamlit** | `1.66.0` | `>=1.66, <2.0` |
+| **pandas** | `3.0.6` | `>=2.2, <4.0` |
+| **numpy** | `2.5.4` | `>=1.26, <3.0` |
+| **plotly** | `7.1.0` | `>=5.24, <8.0` |
+| **requests** | `2.34.2` | `>=2.31, <3.0` |
 
 ```text
-streamlit>=1.66,<2.0
-pandas>=2.2,<4.0
-numpy>=1.26,<3.0
-plotly>=5.24,<8.0
-requests>=2.31,<3.0
+streamlit==1.66.0
+pandas==3.0.6
+numpy==2.5.4
+plotly==7.1.0
+requests==2.34.2
 ```
 
 ---
