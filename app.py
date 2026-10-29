@@ -1690,7 +1690,7 @@ st.markdown(
     f"""
     <div class="footer">
         BioVector · Quantitative Biodiversity Informatics &amp; Zoonotic Niche Modeler.
-        Built from real GBIF occurrence records and Open-Meteo historical climate.
+        Built by Chijioke C. Uhegwu from real GBIF occurrence records and Open-Meteo historical climate.
         Snapshot generated {html.escape(snapshot_time)}. Designed for One Health,
         macroecology and quantitative biodiversity research workflows.
     </div>

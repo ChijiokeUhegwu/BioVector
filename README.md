@@ -14,7 +14,7 @@ Access the live cloud deployment here:
 🔗 **[Launch BioVector Dashboard](https://biovector.streamlit.app/)**
 
 <div align="center">
-  <img src="biovector-overview.png" alt="BioVector: Quantitative Biodiversity Informatics & Zoonotic Niche Modeler" width="100%" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);" />
+  <img src="biovector-dashboard.png" alt="BioVector: Quantitative Biodiversity Informatics & Zoonotic Niche Modeler" width="100%" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);" />
 </div>
 
 ---
@@ -126,10 +126,12 @@ BioVector is designed with a modular architecture separating data ingestion and 
 
 ```text
 BioVector/
-├── app.py                         # Streamlit dashboard, visual styling & interactive charts
-├── ingest.py                      # Dual-API pipeline, taxonomic resolver, spatial clustering & export
-├── requirements.txt               # Pinned Python package dependencies
+├── .gitignore                     # Git ignore rules for virtual environments, caches & logs
 ├── README.md                      # Comprehensive project documentation
+├── app.py                         # Streamlit dashboard, visual styling & interactive charts
+├── biovector-dashboard.png        # Architecture preview & dashboard banner screenshot
+├── ingest.py                      # Dual-API pipeline, taxonomic resolver, spatial clustering & export
+├── requirements.txt               # Pinned Python package dependencies (tested on Python 3.12)
 └── data/
     ├── occurrences.csv            # Cleaned, country-stratified coordinate sample (11,909 rows)
     ├── country_totals.csv         # Complete GBIF query country-level facets (125 countries)
@@ -147,6 +149,8 @@ BioVector/
 |---|---|
 | **app.py** | Renders the responsive Streamlit user interface, customized styling tokens, KPI metrics, Scattermap GIS visualizations, dual-axis Plotly figures, and dynamic CSV/JSON export handlers. |
 | **ingest.py** | Orchestrates resilient API querying, HTTP connection pooling with backoff retries, taxonomic name resolution, country-stratified sampling, 5.0° spatial clustering, Open-Meteo reanalysis retrieval, and metadata generation. |
+| **biovector-dashboard.png** | Visual banner preview and architecture UI screenshot showcased in repository documentation. |
+| **requirements.txt** | Explicitly pins exact tested library versions ensuring reproducible environments across Python 3.10–3.12. |
 | **data/occurrences.csv** | Normalized occurrence records containing geographic coordinates, ISO country codes, event dates, precision classifications, and basis of record. |
 | **data/country_totals.csv** | Unbiased query facets tracking total GBIF record volumes alongside sample representation across all 125 detected nations. |
 | **data/monthly_totals.csv** | Clean monthly distribution of records possessing verified day- or month-level precision. |
